@@ -52,6 +52,18 @@
   /* transition */
   --transition: cubic-bezier(0.3, 0, 0.3, 1);
 }
+/* light theme */
+.light-theme{
+  --title-color: #000;
+  --text-color: #262626;
+  --bg-color: #f0ebe3;
+  --bg-color-alt: #fff;
+  --container-color: #fff;
+  --border-color: #000;
+
+  /* shadow */
+  --shadow: 5px 5px rgb(0 0 0 / 20%);
+}
 
 /* reset */
 *{
@@ -70,6 +82,10 @@ body{
 body{
   color: var(--text-color);
   background-color: var(--bg-color);
+}
+
+body.no-scroll{
+  overflow: hidden;
 }
 
 h1,
