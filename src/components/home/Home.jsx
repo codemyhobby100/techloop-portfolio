@@ -1,7 +1,7 @@
 import React from 'react';
 import profileImg from '../../assets/profile-img.png';
 import shapeOne from '../../assets/shape-1.png';
-import shapeTwo from '../../assets/shape-1.png';
+import shapeTwo from '../../assets/shape-2.png';
 import CV from "../../assets/CV.pdf"
 import {FaTwitter, FaInstagram, FaTiktok} from 'react-icons/fa'
 import './home.css'

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { links } from '../../Data';
 import { FaTwitter, FaInstagram, FaTiktok} from 'react-icons/fa';
 import { BsSun, BsMoon} from 'react-icons/bs';
+import shapeOne from '../../assets/shape-1.png';
 import './header.css';
 import { Link } from 'react-scroll';
 import { animateScroll } from 'react-scroll';
@@ -93,6 +94,10 @@ const Header = () => {
                         </a>
                     </div>
                 </div>
+
+                <div className="section__deco deco__left header__deco">
+                   <img src={shapeOne} alt="" className='shape' />
+               </div>
             </div>
 
             <div className="nav__btns">
