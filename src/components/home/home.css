@@ -3,6 +3,12 @@
     padding-bottom: 180px;
 }
 
+.home,
+.home__wrapper,
+.home__container{
+    position: relative;
+}
+
 .home__wrapper{
     min-height: 100vh;
     display: grid;
