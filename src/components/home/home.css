@@ -6,7 +6,7 @@
 .home,
 .home__wrapper,
 .home__container{
-    position: relative;
+    position: relative !important;
 }
 
 .home__wrapper{
@@ -17,7 +17,7 @@
 
 .home__container{
     width: 100%;
-    position: relative;
+    z-index: 10;
 }
 
 .home__subtitle,

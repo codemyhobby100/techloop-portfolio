@@ -77,6 +77,15 @@
   background-color: var(--primary-color);
 }
 
+.light-theme .shape{
+  filter: invert(0); 
+  opacity: 1;
+}
+
+.light-theme .bg__title{
+  color: rgba(0, 0, 0, 0.02);
+}
+
 /* reset */
 html{
   scroll-behavior: smooth;
@@ -205,7 +214,8 @@ img{
 
 .shape{
   position: absolute;
-  
+  filter: blur(0);
+  opacity: 1;
 }
 
 .section{
@@ -243,6 +253,7 @@ img{
   overflow: hidden;
   text-align: left;
   position: relative;
+  z-index: 10;
 }
 
 .card-one{
