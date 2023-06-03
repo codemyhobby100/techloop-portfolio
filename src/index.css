@@ -270,3 +270,57 @@
         row-gap: 4px;
     }
 }
+
+@media screen and (max-width: 350px){
+    .nav__data{
+        padding: 80px 0 0 90px;
+    }
+
+    .header__deco{
+        left: 40px;
+    }
+
+    .home__img-wrapper{
+        margin-top: 80px;
+    }
+
+    .home__data{
+        transform: scale(0.5);
+    }
+
+    .home__data-one{
+        bottom: 18%;
+        left: -18%;
+    }
+
+    .home__date-two{
+        bottom: 0;
+        right: -12%;
+    }
+
+    .card-one,
+    .card-two{
+        padding: 24px;
+    }
+
+    .skills__titles,
+    .skills__description{
+        padding-inline: 16px;
+    }
+
+    .portfolio__img{
+        height: 180px;
+    }
+
+    .resume__header{
+        padding: 24px 18px;
+    }
+
+    .resume__content{
+        padding-inline: 18px 20px;
+    }
+
+    .testimonial__img{
+        height: 140px;
+    }
+}
