@@ -63,35 +63,35 @@ export const services = [
     name: 'Web Development',
     title: 'Web Design & Logo',
     description:
-      'Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal.',
+      'We create customized, responsive websites that accurately represent our clients brands and fulfil their specific needs, using advanced technologies such as HTML, CSS, JavaScript, React, and Node.',
   },
   {
     id: 2,
     name: ' Apps Development ',
     title: ' iOS & Android ',
     description:
-      'Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.',
+      'We specialize in developing cross-platform applications tailored to the specific needs of our clients, compatible with both Android and iOS devices.',
   },
   {
     id: 3,
-    name: ' Game Development ',
-    title: ' Unity & Unreal Engine ',
+    name: ' Digital Marketing ',
+    title: ' Facebook & Google Ads ',
     description:
-      ' Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games. ',
+      ' We offer comprehensive digital marketing solutions that expand your companys reach and engage audiences across various social media platforms.',
   },
   {
     id: 4,
-    name: ' Advertising ',
-    title: ' Google Ads ',
+    name: ' Website Maintenance  ',
+    title: ' Web & App Maintenance ',
     description:
-      ' Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
+      ' We provide businesses with continuous website maintenance and support, offering essential services such as regular updates, security patches, and troubleshooting.',
   },
   {
     id: 5,
-    name: ' Music Writing ',
-    title: ' Sound Track ',
+    name: ' SEO  ',
+    title: ' Search Engine Optimization ',
     description:
-      'Music copying, writing, creating, transcription and composition services.',
+      'We specialize in enhancing businesses search engine rankings, enabling easier online discoverability for their customers. Through our expertise, we ensure your target audience can easily find your business.',
   },
 ];
 

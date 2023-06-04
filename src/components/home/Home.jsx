@@ -55,8 +55,9 @@ const Home = () => {
             </div>
 
             <p className='home__text'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sequi ducimus quas quidem, totam nisi
-                culpa dolores corporis blanditiis harum esse dicta dolore tempore atque commodi quia veniam provident amet!
+                Welcome to Techloop! As a web development agency, our primary focus lies in crafting captivating and visually striking websites that effectively 
+                captivate the attention of the target audience. Whether you're a startup, a medium-sized enterprise, or a large-scale company, we are dedicated 
+                to delivering outstanding web design solutions tailored to your specific needs.
             </p>
 
             <div className='home__socials'>
@@ -74,10 +75,10 @@ const Home = () => {
             </div>
 
             <div className="home__btns">
-                <a download=''href={CV} className="btn text-cs">Download CV</a>
+                <a download=''href={CV} className="btn text-cs">Start A Project</a>
 
                 <a href="#skills" className="hero__link text-cs">
-                    My Skills
+                    Services
                 </a>
             </div>
         </div>

@@ -13,7 +13,7 @@ const Resume = () => {
         </p>
 
         <div className="resume__container container grid">
-            <div className="resume__group">
+            {/* <div className="resume__group">
                 <h3 className="resume__heading">Education</h3>
 
                 <div className="resume__items">
@@ -31,7 +31,7 @@ const Resume = () => {
                         }
                     })}
                 </div>
-            </div>
+            </div> */}
 
             <div className="resume__group">
                 <h3 className="resume__heading">Experience</h3>
