@@ -150,7 +150,7 @@ export const projects = [
     id: 1,
     img: Project12,
     category: 'Web Development/ Design',
-    title: 'Zorro',
+    title: 'Crypto site(React App)',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -166,15 +166,15 @@ export const projects = [
     id: 3,
     img: Project11,
     category: 'Website Maintenance',
-    title: 'Explore',
+    title: 'Tamazing Events',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
   {
     id: 4,
     img: Project13,
-    category: 'SEO',
-    title: 'Mozar',
+    category: 'Web development',
+    title: 'Amazon Unite',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -229,31 +229,41 @@ export const cv = [
 
   {
     id: 4,
-    title: 'UI Head & Manager',
-    subtitle: 'Soft Tech Inc.',
-    date: '2020 - PRESENT',
+    title: 'Website Development & SEO ',
+    subtitle: 'Tamazing Events',
+    date: '2020 - 2022',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'We take pride in successfully creating a visually appealing website for Tamazing Events, an esteemed event decor company located in Dallas, Texas. By implementing effective SEO strategies, we strategically targeted the relevant audience, resulting in significant business growth and expansion for our client.',
     category: 'experience',
   },
 
   {
     id: 5,
-    title: 'UI / UX Specialist',
-    subtitle: 'Kana Design Studio',
-    date: '2018 - 2020',
+    title: 'Website Development',
+    subtitle: 'Amazon Unite International',
+    date: '2023- 2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'It was a great pleasure for us to be involved in a meaningful project with Amazon Unite International, an NGO dedicated to supporting women, youths, and children based in Houston, Texas. The opportunity to contribute to such a heartwarming initiative brought us immense satisfaction and fulfilment.',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Plugins Developer',
-    subtitle: 'Fiverr.com',
-    date: '2016 - 2018',
+    title: 'Website Development & SEO',
+    subtitle: 'RAI HR Consulting',
+    date: '2022- 2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Utilizing our creative design expertise, we have successfully developed an attractive website for RAI HR Consulting, an HR company situated in London, UK. In addition to our design prowess, our strategic implementation of SEO techniques has enabled us to effectively reach and engage the desired target audience, contributing to the overall success and visibility of the business.',
+    category: 'experience',
+  },
+
+  {
+    id: 7,
+    title: 'Website Maintainance',
+    subtitle: 'Freesiafoodies',
+    date: '2022- 2023',
+    description:
+      'We took great pleasure in redesigning and deploying an exceptional website for Freesiafoodies. Our team dedicated their expertise to creating a remarkable online presence for the brand, resulting in a website that truly stands out.',
     category: 'experience',
   },
 ];
