@@ -42,19 +42,10 @@ const Contact = () => {
             <div className="contact__content">
                 <div className="contact__card">
                     <span className="contact__card-icon">
-                        <FaRegMap />
-                    </span>
-
-                    <h3 className="contact__card-title">Address</h3>
-                    <p className="contact__card-date">Lagos, Lagos, Nigeria</p>
-                </div>
-
-                <div className="contact__card">
-                    <span className="contact__card-icon">
                         <FaRegUser />
                     </span>
 
-                    <h3 className="contact__card-title">Freelance</h3>
+                    <h3 className="contact__card-title">Get in touch</h3>
                     <p className="contact__card-date">Available Right Now</p>
                 </div>
 
@@ -64,16 +55,7 @@ const Contact = () => {
                     </span>
 
                     <h3 className="contact__card-title">Email</h3>
-                    <p className="contact__card-date">techloop@info.com</p>
-                </div>
-
-                <div className="contact__card">
-                    <span className="contact__card-icon">
-                        <FaRegAddressBook />
-                    </span>
-
-                    <h3 className="contact__card-title">Phones</h3>
-                    <p className="contact__card-date">000-111-2222</p>
+                    <p className="contact__card-date">techloop@gmail.com</p>
                 </div>
             </div>
 

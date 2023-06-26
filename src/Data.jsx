@@ -1,7 +1,7 @@
 // import Project1 from './assets/project1.jpeg';
 import Project2 from './assets/project15.png';
 import Project3 from './assets/project20.png';
-import Project5 from './assets/project5.jpg';
+import Project5 from './assets/project21.png';
 import Project6 from './assets/project18.jpg';
 // import Project7 from './assets/project7.png';
 // import Project8 from './assets/project8.png';
@@ -11,11 +11,13 @@ import Project11 from './assets/project17.png';
 import Project12 from './assets/Project12.png';
 import Project13 from './assets/Project13.png'
 
-import Testimonial1 from './assets/testimonial1.jpg';
-import Testimonial2 from './assets/testimonial2.jpg';
-import Testimonial3 from './assets/testimonial3.jpg';
+;
 import Testimonial4 from './assets/testimonial4.jpg';
 import Testimonial5 from './assets/testimonial5.jpg';
+import Tamazing from './assets/tamazing.jpg';
+import Rai from './assets/rai.png';
+import Amazon from './assets/amazon.jpg'
+import Forex from './assets/forex-fund.png'
 
 export const links = [
   {
@@ -149,10 +151,10 @@ export const projects = [
     id: 1,
     img: Project12,
     category: 'Web Application',
-    title: 'Crypto site',
+    title: 'Crypto Dashboard',
     link: '#',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'This is a crypto currency dashboard we built using React. This uses a private API to update the crypto currencies prices and also has 3 other sub applications with the app.',
   },
   {
     id: 2,
@@ -161,7 +163,7 @@ export const projects = [
     title: 'Tamazing Events',
     link: 'https://tamazingevents.com/about.html',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'This is an event decor website. Using various animationa and captivating color combination, we have been able to build an eye-catching website.',
   },
   {
     id: 3,
@@ -170,7 +172,7 @@ export const projects = [
     title: 'Quiz Master',
     link: 'https://quiz-mastery.netlify.app/',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Quiz master is an interesting quiz app that allows students practice different courses in preparation for tests or examinations.',
   },
   {
     id: 4,
@@ -179,16 +181,16 @@ export const projects = [
     title: 'Amazon Unite',
     link: 'https://amazonuniteinternational.org/',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Amazon Unite International is an international NGO aimed at helping women, youths, and children. ',
   },
   {
     id: 5,
     img: Project5,
     category: 'Web Design',
-    link: 'https://github.com/codemyhobby100',
-    title: 'Stay Fit',
+    link: 'https://world-map-pro.netlify.app/',
+    title: 'Google Maps Clone',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'This is a simple google maps clone that was built using MapBox API. It has various functions such as directions, ability to tell if there is traffic and more.',
   },
   {
     id: 6,
@@ -197,25 +199,16 @@ export const projects = [
     title: 'Travel Guide',
     link: 'https://github.com/codemyhobby100',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'This is a simple UI desing built using Figma.',
   },
   {
-    id: 3,
+    id: 7,
     img: Project3,
-    category: 'Web App',
-    title: 'Cryypt',
+    category: 'Web Application',
+    title: 'OUR FOREX FUNDS',
     link: 'https://github.com/codemyhobby100',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 8,
-    img: Project6,
-    category: 'UI/UX',
-    title: 'Travel Guide',
-    link: 'https://github.com/codemyhobby100',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'This is a forex website built using React js and some libraries for animation such as AOS(Animation On Scroll).',
   },
 ];
 
@@ -294,42 +287,34 @@ export const cv = [
 export const testimonials = [
   {
     id: 1,
-    img: Testimonial1,
-    name: 'Barbara Wilson',
-    author: 'CEO Company',
+    img: Tamazing,
+    name: 'Tamazing Events',
+    author: 'Event Decor Company',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'I was amazed by the exceptional design you crafted for our company. Since we engaged your services to develop our website, we have witnessed a significant influx of customers, leading to remarkable growth for our company. We extend our heartfelt gratitude.',
   },
   {
     id: 2,
-    img: Testimonial2,
-    name: 'Charlie Smith',
-    author: 'Designer',
+    img: Rai,
+    name: 'RAI HR CONSULTING',
+    author: 'HR Consulting Company',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Upon receiving a recommendation from a friend, I decided to give Techloop a try. To my astonishment, they exceeded my expectations by constructing a visually stunning and captivating website. I am thoroughly impressed and would highly recommend their services to others.',
   },
   {
     id: 3,
-    img: Testimonial3,
-    name: 'Roy Wang',
-    author: 'Manager GYM',
+    img: Amazon,
+    name: 'Amazon Unite International',
+    author: 'NGO',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'In our endeavor to establish an online presence for our company, we sought a website that would truly make an impact. During our quest for a reliable agency, we came across Techloop, and we were immensely impressed by their exceptional work and outstanding customer service.',
   },
   {
     id: 4,
-    img: Testimonial4,
-    name: 'Jennifer Smith',
-    author: 'CEO & Founder',
+    img: Forex,
+    name: 'OUR FOREX FUNDS',
+    author: 'Forex Company',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 5,
-    img: Testimonial5,
-    name: 'Paul Freeman',
-    author: 'Photographer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
+      'Having discovered Techloop through social media, we were instantly impressed by the quality of their work. Intrigued, we decided to give them a chance, and we were thrilled to find that they lived up to our high expectations. We wholeheartedly recommend their services.',
+  }
 ];
