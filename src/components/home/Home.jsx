@@ -3,7 +3,7 @@ import profileImg from '../../assets/profile-img.png';
 import shapeOne from '../../assets/shape-1.png';
 import shapeTwo from '../../assets/shape-2.png';
 import CV from "../../assets/CV.pdf"
-import {FaTwitter, FaInstagram, FaTiktok} from 'react-icons/fa'
+import {FaGithub, FaInstagram, FaTiktok} from 'react-icons/fa'
 import './home.css'
 
 
@@ -61,15 +61,15 @@ const Home = () => {
             </p>
 
             <div className='home__socials'>
-                <a href="" className='home__social-link'>
-                    <FaTwitter />
+                <a href="https://github.com/codemyhobby100" className='home__social-link'>
+                    <FaGithub />
                 </a>
 
-                <a href="" className='home__social-link'>
+                <a href="https://www.instagram.com/__techloop" className='home__social-link'>
                     <FaInstagram />
                 </a>
 
-                <a href="" className='home__social-link'>
+                <a href="https://www.tiktok.com/@_techloop?lang=en" className='home__social-link'>
                     <FaTiktok />
                 </a>
             </div>

@@ -83,7 +83,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__submit">
-                    <p>*Accept the terms and conditions.</p>
+                    <p>*We would get back to you soonest!.</p>
                     <button type='submit' className='btn text-cs'>Send Message</button>
                 </div>
             </form>
