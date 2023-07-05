@@ -16,7 +16,7 @@ const Blog = () => {
 
         <div className="blog__container container grid">
             <div className="blog__item card card-two">
-                <span className="blog__date text-cs">June 22nd, 2023</span>
+                <span className="blog__date text-cs">June 22, 2023</span>
                 <h3 className="blog__title">The next-generation version of iOS, set to be released in September.</h3>
                 <p className="blog__description">iOS 17 is the newest version of iOS, the operating system that is designed to run on the iPhone. Previewed in June, iOS 17 is in beta testing and is set to see a release in September alongside new iPhones
                 </p>
@@ -30,7 +30,7 @@ const Blog = () => {
             </div>
 
             <div className="blog__item card card-two">
-                <span className="blog__date text-cs">APRIL 11, 2023</span>
+                <span className="blog__date text-cs">APRIL 6, 2023</span>
                 <h3 className="blog__title">How AI is taking over the Tech Industry</h3>
                 <p className="blog__description">
                 Artificial Intelligence (AI) has emerged as a dominant force revolutionizing the tech industry. With its ability to process vast amounts of data and perform complex tasks, AI is transforming various sectors. From intelligent chatbots to personalized recommendations...
@@ -45,7 +45,7 @@ const Blog = () => {
             </div>
 
             <div className="blog__item card card-two">
-                <span className="blog__date text-cs">NOVEMBER 7, 2023</span>
+                <span className="blog__date text-cs">May 7, 2023</span>
                 <h3 className="blog__title">Create Better User Interface</h3>
                 <p className="blog__description">Creating engaging, information-rich content for your readers, however, is only half of the job: equally important is presenting the content in a visually stimulating way.. When it comes to blog design, there are a variety of different factors to look from.
                 </p>

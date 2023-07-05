@@ -21,7 +21,7 @@ const Home = () => {
             </h1>
 
             <p className='home__job'>
-                <span className='text-cs'>Your</span> <b>Web Development Agency</b>
+                <span className='text-cs'>Your</span><b>Web Development Agency</b>
             </p>
 
             <div className="home__img-wrapper">
@@ -41,7 +41,7 @@ const Home = () => {
 
                 <p className="home__data home__data-two">
                     <span className="text-lg">
-                        100
+                        100+
                     </span>
 
                     <span className="text-sm text-cs">

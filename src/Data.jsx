@@ -29,10 +29,6 @@ export const links = [
     path: 'services',
   },
   {
-    name: 'Skills',
-    path: 'skills',
-  },
-  {
     name: 'Works',
     path: 'work',
   },
@@ -42,11 +38,7 @@ export const links = [
   },
   {
     name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
+    path: 'testimonials',
   },
   {
     name: 'Blog',
