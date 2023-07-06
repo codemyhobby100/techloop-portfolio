@@ -17,7 +17,7 @@ import Testimonial5 from './assets/testimonial5.jpg';
 import Tamazing from './assets/tamazing.jpg';
 import Rai from './assets/rai.png';
 import Amazon from './assets/amazon.jpg'
-import Forex from './assets/forex-fund.png'
+import Forex from './assets/forex-capital.png'
 
 export const links = [
   {
@@ -197,8 +197,8 @@ export const projects = [
     id: 7,
     img: Project3,
     category: 'Web Application',
-    title: 'OUR FOREX FUNDS',
-    link: 'https://github.com/codemyhobby100',
+    title: 'OUR FOREX CAPITAL',
+    link: 'https://ourforexcapital.com/',
     description:
       'This is a forex website built using React js and some libraries for animation such as AOS(Animation On Scroll).',
   },
