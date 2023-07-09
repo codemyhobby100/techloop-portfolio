@@ -1,35 +1,23 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import {FaRegAddressBook, FaRegEnvelope, FaRegUser, FaRegMap} from 'react-icons/fa';
 import shapeOne from '../../assets/shape-1.png';
 import './contact.css'
-import axios from 'axios';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    const [form, setForm] = useState({
-        name: '',
-        email: '', 
-        subject: '',
-        message: '',
-    });
+    const form = useRef();
 
-    const handleChange =(e) => {
-        const name = e.target.name;
-        const value = e.target.value;
-        setForm({...form, [name]: value });
-    };
-
-    const handleSubmit = (e) => {
+    const sendEmail = (e) => {
         e.preventDefault();
 
-        axios.post(
-            'https://sheet.best/api/sheets/469c3ffb-48fc-4b14-aadd-ba3b642bd2ed',
-             form 
-             ).then((response) => {
-                console.log(response)
-                // clear the form
-                setForm({name: '', email: '', subject: '', message: ''});
-             });
-    };
+        emailjs.sendForm('service_qwyiewi', 'template_v3htq3q', form.current, 'EYdk4KX7wlFCT4pz_')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+  }
 
   return (
     <section className="contact section" id="contact">
@@ -55,36 +43,37 @@ const Contact = () => {
                     </span>
 
                     <h3 className="contact__card-title">Email</h3>
-                    <p className="contact__card-date">techloop@gmail.com</p>
+                    <p className="contact__card-date"><a href="mailto:techlooop1@gmail.com">techlooop1@gmail.com</a></p>
                 </div>
             </div>
 
-            <form className="contact__form" onSubmit={handleSubmit}>
+            <form className="contact__form" ref={form} onSubmit={sendEmail} >
                 <div className="contact__form-group grid">
                     <div className="contact__form-div">
                         <label className="conact__form-tag text-cs">Full Name <b>*</b></label>
-                        <input type="text" name='name' onChange={handleChange} value={form.name} className="contact__form-input" />
+                        <input type="text" name='from_name'  className="contact__form-input" />
                     </div>
 
                     <div className="contact__form-div">
                         <label className="conact__form-tag text-cs">Email <b>*</b></label>
-                        <input type="email" name='email' onChange={handleChange} value={form.email} className="contact__form-input" />
+                        <input type="email" name='from_email' className="contact__form-input" />
                     </div>
                 </div>
 
                 <div className="contact__form-div">
                     <label className="conact__form-tag text-cs">Subject <b>*</b></label>
-                    <input type="text" name='subject' onChange={handleChange} value={form.subject} className="contact__form-input" />
+                    <input type="text" name='from_subject' className="contact__form-input" />
                 </div>
 
                 <div className="contact__form-div contact__form-area">
                     <label className="conact__form-tag text-cs" >Leave A Message... <b>*</b></label>
-                    <textarea className="contact__form-input" name='message' onChange={handleChange} value={form.message}></textarea>
+                    <textarea className="contact__form-input" name='from_message'></textarea>
                 </div>
 
                 <div className="contact__submit">
                     <p>*We would get back to you soonest!.</p>
-                    <button type='submit' className='btn text-cs'>Send Message</button>
+                    <input type="submit" className='btn text-cs'  value="Send Message"/>
+                    {/* <button type='submit' >Send Message</button> */}
                 </div>
             </form>
         </div>
