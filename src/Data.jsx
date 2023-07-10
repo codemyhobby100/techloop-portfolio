@@ -197,8 +197,8 @@ export const projects = [
     id: 7,
     img: Project3,
     category: 'Web Application',
-    title: 'OUR FOREX CAPITAL',
-    link: 'https://ourforexcapital.com/',
+    title: 'FOREX Website',
+    link: '#',
     description:
       'This is a forex website built using React js and some libraries for animation such as AOS(Animation On Scroll).',
   },
@@ -300,13 +300,5 @@ export const testimonials = [
     author: 'NGO',
     description:
       'In our endeavor to establish an online presence for our company, we sought a website that would truly make an impact. During our quest for a reliable agency, we came across Techloop, and we were immensely impressed by their exceptional work and outstanding customer service.',
-  },
-  {
-    id: 4,
-    img: Forex,
-    name: 'OUR FOREX FUNDS',
-    author: 'Forex Company',
-    description:
-      'Having discovered Techloop through social media, we were instantly impressed by the quality of their work. Intrigued, we decided to give them a chance, and we were thrilled to find that they lived up to our high expectations. We wholeheartedly recommend their services.',
   }
 ];
