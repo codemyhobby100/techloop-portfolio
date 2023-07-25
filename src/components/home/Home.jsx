@@ -2,7 +2,7 @@ import React from 'react';
 import profileImg from '../../assets/profile-pic.png';
 import shapeOne from '../../assets/shape-1.png';
 import shapeTwo from '../../assets/shape-2.png';
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/Terms.pdf"
 import {FaGithub, FaInstagram, FaTiktok} from 'react-icons/fa'
 import './home.css'
 
@@ -75,7 +75,7 @@ const Home = () => {
             </div>
 
             <div className="home__btns">
-                <a download=''href={CV} className="btn text-cs">Start A Project</a>
+                <a download=''href={CV} className="btn text-cs">Terms & Policy</a>
 
                 <a href="#skills" className="hero__link text-cs">
                     Services
