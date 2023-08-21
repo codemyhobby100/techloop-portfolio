@@ -3,8 +3,8 @@ import Project2 from './assets/project15.png';
 import Project3 from './assets/project20.png';
 import Project5 from './assets/project21.png';
 import Project6 from './assets/project18.jpg';
-// import Project7 from './assets/project7.png';
-// import Project8 from './assets/project8.png';
+import Project7 from './assets/project21.jpg';
+import Project8 from './assets/project22.png';
 // import Project9 from './assets/project9.png';
 // import Project10 from './assets/project10.png';
 import Project11 from './assets/project17.png';
@@ -197,10 +197,28 @@ export const projects = [
     id: 7,
     img: Project3,
     category: 'Web Application',
-    title: 'FOREX Website',
+    title: 'FOREX Prop Firm',
     link: '#',
     description:
-      'This is a forex website built using React js and some libraries for animation such as AOS(Animation On Scroll).',
+      'This is a forex prop firm web application built using React js and some APIS.',
+  },
+  {
+    id: 8,
+    img: Project8,
+    category: 'Web Design',
+    title: 'Creators Ideology',
+    link: 'https://creatorsideology.com/',
+    description:
+      'Creators ideology is a social media marketing agency that provides services for both creators and brands.',
+  },
+  {
+    id: 9,
+    img: Project7,
+    category: 'Web Design',
+    title: 'Restaurant Website',
+    link: 'https://grilli-diners.netlify.app/',
+    description:
+      'This is a stunning restaurant website with a nice user experience.',
   },
 ];
 

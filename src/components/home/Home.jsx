@@ -77,8 +77,8 @@ const Home = () => {
             <div className="home__btns">
                 <a download=''href={CV} className="btn text-cs">Terms & Policy</a>
 
-                <a href="#skills" className="hero__link text-cs">
-                    Services
+                <a href="#contact" className="hero__link text-cs">
+                    Start A Project
                 </a>
             </div>
         </div>
