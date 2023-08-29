@@ -20,7 +20,7 @@ const Services = () => {
     <section className="services section" id="services">
         <h2 className="section__title text-cs">What We Do</h2>
         <p className="section__subtitle">
-            My <span>Services</span>
+            Our <span>Services</span>
         </p>
 
         <Swiper 

@@ -198,7 +198,7 @@ export const projects = [
     img: Project3,
     category: 'Web Application',
     title: 'FOREX Prop Firm',
-    link: '#',
+    link: 'https://forex-project.netlify.app/',
     description:
       'This is a forex prop firm web application built using React js and some APIS.',
   },
