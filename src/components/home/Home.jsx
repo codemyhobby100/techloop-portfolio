@@ -55,9 +55,9 @@ const Home = () => {
             </div>
 
             <p className='home__text'>
-                Welcome to Techloop! As a web development agency, our primary focus lies in crafting captivating and visually striking websites that effectively 
-                captivate the attention of the target audience. Whether you're a startup, a medium-sized enterprise, or a large-scale company, we are dedicated 
-                to delivering outstanding web design solutions tailored to your specific needs.
+                At Techloop, we specialize in developing compelling web and software applications that engage and captivate your audience. As a leading web development agency, we focus on creating visually striking and user-centric solutions that resonate with startups, medium-sized enterprises, and large-scale companies alike.
+
+                Our dedication lies in delivering exceptional web design and software solutions customized to your precise requirements. Elevate your online presence with our expertise and let us shape innovative digital experiences that drive your success.
             </p>
 
             <div className='home__socials'>

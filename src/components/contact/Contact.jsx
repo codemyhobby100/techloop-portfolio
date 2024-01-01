@@ -3,6 +3,7 @@ import {FaRegAddressBook, FaRegEnvelope, FaRegUser, FaRegMap} from 'react-icons/
 import shapeOne from '../../assets/shape-1.png';
 import './contact.css'
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
     const form = useRef();
@@ -12,7 +13,12 @@ const Contact = () => {
 
         emailjs.sendForm('service_qwyiewi', 'template_v3htq3q', form.current, 'EYdk4KX7wlFCT4pz_')
         .then((result) => {
-            console.log(result.text);
+            Swal.fire({
+                icon: 'success',
+                title: 'Great!',
+                text: 'Your message has been sent successfully',
+                footer: '<a href="#">Go home</a>'
+              })
         }, (error) => {
             console.log(error.text);
         });
@@ -51,23 +57,23 @@ const Contact = () => {
                 <div className="contact__form-group grid">
                     <div className="contact__form-div">
                         <label className="conact__form-tag text-cs">Full Name <b>*</b></label>
-                        <input type="text" name='from_name'  className="contact__form-input" />
+                        <input type="text" name='from_name'  className="contact__form-input" required="required" />
                     </div>
 
                     <div className="contact__form-div">
                         <label className="conact__form-tag text-cs">Email <b>*</b></label>
-                        <input type="email" name='from_email' className="contact__form-input" />
+                        <input type="email" name='from_email' className="contact__form-input" required="required"/>
                     </div>
                 </div>
 
                 <div className="contact__form-div">
                     <label className="conact__form-tag text-cs">Subject <b>*</b></label>
-                    <input type="text" name='from_subject' className="contact__form-input" />
+                    <input type="text" name='from_subject' className="contact__form-input" required="required"/>
                 </div>
 
                 <div className="contact__form-div contact__form-area">
                     <label className="conact__form-tag text-cs" >Leave A Message... <b>*</b></label>
-                    <textarea className="contact__form-input" name='from_message'></textarea>
+                    <textarea className="contact__form-input" name='from_message' required="required"></textarea>
                 </div>
 
                 <div className="contact__submit">
