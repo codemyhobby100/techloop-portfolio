@@ -8,8 +8,8 @@ import Project8 from './assets/project22.png';
 // import Project9 from './assets/project9.png';
 // import Project10 from './assets/project10.png';
 import Project11 from './assets/project17.png';
-import Project12 from './assets/Project12.png';
-import Project13 from './assets/Project13.png'
+import Project12 from './assets/project12.png';
+import Project13 from './assets/project13.png'
 
 ;
 import Testimonial4 from './assets/testimonial4.jpg';
