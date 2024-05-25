@@ -23,7 +23,7 @@ const Items = ({projectItems}) => {
 
                     <span className="portfolio__category text-cs">{category}</span>
                     <h3 className="portfolio__title">{title}</h3>
-                    <h4 className='porfolio__title'><a href={link} className='link'> View Project</a></h4>
+                    <h4 className='porfolio__title'><a href={link} className='link' target="_blank" rel="noopener noreferrer"> View Project</a></h4>
                     <p className="portfolio__description">{description}</p>
 
                     <a href="#contact" className="link">

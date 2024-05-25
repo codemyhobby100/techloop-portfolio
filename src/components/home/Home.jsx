@@ -21,7 +21,7 @@ const Home = () => {
             </h1>
 
             <p className='home__job'>
-                <span className='text-cs'>Your</span><b>Web Development Agency</b>
+                <span className='text-cs'>Your</span><b>Software Development Agency</b>
             </p>
 
             <div className="home__img-wrapper">
@@ -55,9 +55,14 @@ const Home = () => {
             </div>
 
             <p className='home__text'>
-                At Techloop, we specialize in developing compelling web and software applications that engage and captivate your audience. As a leading web development agency, we focus on creating visually striking and user-centric solutions that resonate with startups, medium-sized enterprises, and large-scale companies alike.
-
-                Our dedication lies in delivering exceptional web design and software solutions customized to your precise requirements. Elevate your online presence with our expertise and let us shape innovative digital experiences that drive your success.
+                At Techloop, we're passionate about transforming innovative concepts into powerful 
+                software solutions that deliver real-world impact.  Our team of skilled software 
+                developers specializes in crafting user-centric mobile apps, web applications, and 
+                enterprise software solutions for startups, medium-sized businesses, and large-scale 
+                corporations.  We don't just build software; we build success stories. 
+                From streamlining internal operations to revolutionizing customer experiences, 
+                we help businesses leverage the power of technology to achieve their goals. 
+                Let's turn your software dreams into a reality.
             </p>
 
             <div className='home__socials'>

@@ -1,9 +1,9 @@
 // import Project1 from './assets/project1.jpeg';
-import Project2 from './assets/project15.png';
+import Project2 from './assets/acct.png';
 import Project3 from './assets/project20.png';
-import Project5 from './assets/project21.png';
+import Project5 from './assets/app.png';
 import Project6 from './assets/project18.jpg';
-import Project7 from './assets/project21.jpg';
+import Project7 from './assets/iog.png';
 import Project8 from './assets/project22.png';
 // import Project9 from './assets/project9.png';
 // import Project10 from './assets/project10.png';
@@ -54,9 +54,9 @@ export const services = [
   {
     id: 1,
     name: 'Web Development',
-    title: 'Web Design & Logo',
+    title: 'Website & Web App',
     description:
-      'We create customized, responsive websites that accurately represent our clients brands and fulfil their specific needs, using advanced technologies such as HTML, CSS, JavaScript, React, and Node.',
+      'We builds bespoke full-stack web applications that seamlessly integrate with your brand and strategy. Our expert developers leverage cutting-edge front-end and back-end technologies to deliver user experiences and achieve your business objectives.',
   },
   {
     id: 2,
@@ -151,20 +151,20 @@ export const projects = [
   {
     id: 2,
     img: Project2,
-    category: 'Web Development',
-    title: 'Tamazing Events',
-    link: 'https://tamazingevents.com/about.html',
+    category: 'Web Application',
+    title: 'AcctBazaar',
+    link: 'https://www.acctbazaar.com/',
     description:
-      'This is an event decor website. Using various animationa and captivating color combination, we have been able to build an eye-catching website.',
-  },
+      'Acctbazaar is a fullstack sophisticated p2p marketplace for trading all forms of social media accounts and gift cards. ',
+  },  
   {
     id: 3,
-    img: Project11,
-    category: 'Web Development',
-    title: 'Quiz Master',
-    link: 'https://quiz-mastery.netlify.app/',
+    img: Project5,
+    category: 'Mobile App',
+    link: 'https://world-map-pro.netlify.app/',
+    title: 'Wealth App',
     description:
-      'Quiz master is an interesting quiz app that allows students practice different courses in preparation for tests or examinations.',
+      'Wealth App is a real estate application avaailable on Android and Ios devices where memebers can buy and sell properties.',
   },
   {
     id: 4,
@@ -174,15 +174,15 @@ export const projects = [
     link: 'https://amazonuniteinternational.org/',
     description:
       'Amazon Unite International is an international NGO aimed at helping women, youths, and children. ',
-  },
+  },  
   {
     id: 5,
-    img: Project5,
-    category: 'Web Design',
-    link: 'https://world-map-pro.netlify.app/',
-    title: 'Google Maps Clone',
+    img: Project11,
+    category: 'Web Development',
+    title: 'Quiz Master',
+    link: 'https://quiz-mastery.netlify.app/',
     description:
-      'This is a simple google maps clone that was built using MapBox API. It has various functions such as directions, ability to tell if there is traffic and more.',
+      'Quiz master is an interesting quiz app that allows students practice different courses in preparation for tests or examinations.',
   },
   {
     id: 6,
@@ -191,7 +191,7 @@ export const projects = [
     title: 'Travel Guide',
     link: 'https://github.com/codemyhobby100',
     description:
-      'This is a simple UI desing built using Figma.',
+      'This captivating travel app design, crafted with Figma, exemplifies our ability to design intuitive user journeys.  Figmas collaborative features ensured seamless client integration, resulting in a visually-appealing and user-friendly travel companion.',
   },
   {
     id: 7,
@@ -214,11 +214,11 @@ export const projects = [
   {
     id: 9,
     img: Project7,
-    category: 'Web Design',
-    title: 'Restaurant Website',
+    category: 'Web Development',
+    title: 'IOG Website',
     link: 'https://grilli-diners.netlify.app/',
     description:
-      'This is a stunning restaurant website with a nice user experience.',
+      'The IOG website leverages React for a dynamic user interface, while a fully functional accessibility feature and integrated CRM system demonstrate their commitment to both technical excellence and inclusivity.',
   },
 ];
 
@@ -255,41 +255,41 @@ export const cv = [
 
   {
     id: 4,
-    title: 'Website Development & SEO ',
-    subtitle: 'Tamazing Events',
-    date: '2020 - 2022',
+    title: 'Web App Development',
+    subtitle: 'AcctBazaar',
+    date: '',
     description:
-      'We take pride in successfully creating a visually appealing website for Tamazing Events, an esteemed event decor company located in Dallas, Texas. By implementing effective SEO strategies, we strategically targeted the relevant audience, resulting in significant business growth and expansion for our client.',
+      'Acctbazaar is a robust P2P marketplace built to facilitate secure and streamlined trading of social media accounts.  This full-stack application boasts four distinct dashboards catering to buyers, sellers, administrators, and moderators, ensuring a smooth and efficient user experience.  An integrated currency system simplifies transactions within the platform, fostering a secure and convenient environment for trading social media assets.',
     category: 'experience',
   },
 
   {
     id: 5,
-    title: 'Website Development',
-    subtitle: 'Amazon Unite International',
-    date: '2023- 2023',
+    title: 'Mobile App Development',
+    subtitle: 'Wealth App',
+    date: '',
     description:
-      'It was a great pleasure for us to be involved in a meaningful project with Amazon Unite International, an NGO dedicated to supporting women, youths, and children based in Houston, Texas. The opportunity to contribute to such a heartwarming initiative brought us immense satisfaction and fulfilment.',
+      'Wealth App empowers users to buy and sell real estate properties directly from their mobile devices.  This user-friendly app, available on both Android and iOS platforms, simplifies real estate investing with a streamlined interface.  Wealth App integrates a secure in-app chat system, facilitating seamless communication between buyers, sellers, and real estate professionals. This innovative platform streamlines the real estate transaction process, making it more accessible and convenient for everyone.',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Website Development & SEO',
-    subtitle: 'RAI HR Consulting',
-    date: '2022- 2023',
+    title: 'Web App Development',
+    subtitle: 'Bool Shipping',
+    date: '',
     description:
-      'Utilizing our creative design expertise, we have successfully developed an attractive website for RAI HR Consulting, an HR company situated in London, UK. In addition to our design prowess, our strategic implementation of SEO techniques has enabled us to effectively reach and engage the desired target audience, contributing to the overall success and visibility of the business.',
+      'This innovative full-stack web application, built with TypeScript and Golang, connects users with the perfect shipping companies at competitive prices.Bool Shipping features user-friendly dashboards for both customers and administrators, streamlining the shipping process for everyone involved',
     category: 'experience',
   },
 
   {
     id: 7,
-    title: 'Website Maintainance',
-    subtitle: 'Freesiafoodies',
-    date: '2022- 2023',
+    title: 'Website Development',
+    subtitle: 'International Orthopaedic Group',
+    date: '',
     description:
-      'We took great pleasure in redesigning and deploying an exceptional website for Freesiafoodies. Our team dedicated their expertise to creating a remarkable online presence for the brand, resulting in a website that truly stands out.',
+      'We built a comprehensive website for International Orthopaedic Group (IOG) – a leading provider of diverse healthcare services.  This full-stack React application prioritizes a user-friendly experience, guiding patients through their healthcare journey with ease.',
     category: 'experience',
   },
 ];
