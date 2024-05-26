@@ -20,7 +20,7 @@ function App() {
       <Services />
       {/* <Skills /> */}
       <Portfolio />
-      <Resume />
+      {/* <Resume /> */}
       <Testimonials />
       {/* <Pricing /> */}
       <Blog />
