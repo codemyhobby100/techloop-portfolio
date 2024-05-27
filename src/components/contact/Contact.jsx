@@ -11,7 +11,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_qwyiewi', 'template_v3htq3q', form.current, 'EYdk4KX7wlFCT4pz_')
+        emailjs.sendForm('service_0e75q3s', 'template_v3htq3q', form.current, 'EYdk4KX7wlFCT4pz_')
         .then((result) => {
             Swal.fire({
                 icon: 'success',
