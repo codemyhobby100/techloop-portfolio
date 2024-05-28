@@ -4,14 +4,24 @@ import shapeOne from '../../assets/shape-1.png';
 import shapeTwo from '../../assets/shape-2.png';
 import CV from "../../assets/Terms.pdf"
 import {FaGithub, FaInstagram, FaTiktok} from 'react-icons/fa'
-import './home.css'
+import './home.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 const Home = () => {
   return (
   <section className='home' id='home'>
     <div className="home__wrapper">
-        <div className='home__container container'>
+        <div data-aos="fade-up" 
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+
+            className='home__container container'>
             <p className='home__subtitle text-cs'>
                 Welcome  <span>to,</span>
             </p>
