@@ -17,7 +17,14 @@ import './testimonials.css'
 
 const Testimonials = () => {
   return (
-    <section className="testimonials section" id="testimonials">
+    <section 
+      data-aos="fade-up" 
+      // data-aos-offset="200"
+      // data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    className="testimonials section" 
+    id="testimonials">
         <h2 className="section__title text-cs">Testimonials</h2>
         <p className="section__subtitle">
             They  <span>Said About Us</span>

@@ -27,13 +27,29 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-        <h2 className="section__title text-cs">Contact Us</h2>
-        <p className="section__subtitle">
-            Let's <span>Talk About Ideas</span>
-        </p>
-
+        <div
+            data-aos="fade-up" 
+            // data-aos-offset="200"
+            // data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+        >
+            <h2 className="section__title text-cs">Contact Us</h2>
+            <p className="section__subtitle">
+                Let's <span>Talk About Ideas</span>
+            </p>
+        </div>
+        
         <div className="contact__container container grid">
-            <div className="contact__content">
+            <div 
+                data-aos="fade-right" 
+                // data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                className="contact__content"
+            >
+
                 <div className="contact__card">
                     <span className="contact__card-icon">
                         <FaRegUser />
@@ -53,7 +69,13 @@ const Contact = () => {
                 </div>
             </div>
 
-            <form className="contact__form" ref={form} onSubmit={sendEmail} >
+            <form 
+            data-aos="fade-left" 
+            // data-aos-offset="200"
+            // data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="contact__form" ref={form} onSubmit={sendEmail} >
                 <div className="contact__form-group grid">
                     <div className="contact__form-div">
                         <label className="conact__form-tag text-cs">Full Name <b>*</b></label>

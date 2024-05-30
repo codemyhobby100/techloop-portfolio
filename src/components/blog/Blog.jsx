@@ -9,13 +9,30 @@ import './blog.css'
 const Blog = () => {
   return (
     <section className="blog section" id="blog">
-        <h2 className="section__title text-cs">Latest Blog</h2>
-        <p className="section__subtitle">
-            Trending <span>Articles</span>
-        </p>
+        <div
+             data-aos="fade-up" 
+             // data-aos-offset="200"
+             // data-aos-delay="50"
+             data-aos-duration="1000"
+             data-aos-easing="ease-in-out"
+        >
+            
+            <h2 className="section__title text-cs">Latest Blog</h2>
+            <p className="section__subtitle">
+                Trending <span>Articles</span>
+            </p>
+        </div>
+        
 
         <div className="blog__container container grid">
-            <div className="blog__item card card-two">
+            <div 
+                data-aos="fade-right" 
+                // data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                className="blog__item card card-two"
+            >
                 <span className="blog__date text-cs">June 22, 2023</span>
                 <h3 className="blog__title">The next-generation version of iOS, set to be released in September.</h3>
                 <p className="blog__description">iOS 17 is the newest version of iOS, the operating system that is designed to run on the iPhone. Previewed in June, iOS 17 is in beta testing and is set to see a release in September alongside new iPhones
@@ -29,7 +46,14 @@ const Blog = () => {
                 <img src={Blog1} alt="" className="blog__img" />
             </div>
 
-            <div className="blog__item card card-two">
+            <div 
+                data-aos="fade-up" 
+                // data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                className="blog__item card card-two"
+            >
                 <span className="blog__date text-cs">APRIL 6, 2023</span>
                 <h3 className="blog__title">How AI is taking over the Tech Industry</h3>
                 <p className="blog__description">
@@ -44,7 +68,14 @@ const Blog = () => {
                 <img src={Blog2} alt="" className="blog__img" />
             </div>
 
-            <div className="blog__item card card-two">
+            <div 
+                data-aos="fade-left" 
+                // data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                className="blog__item card card-two"
+            >
                 <span className="blog__date text-cs">May 7, 2023</span>
                 <h3 className="blog__title">Create Better User Interface</h3>
                 <p className="blog__description">Creating engaging, information-rich content for your readers, however, is only half of the job: equally important is presenting the content in a visually stimulating way.. When it comes to blog design, there are a variety of different factors to look from.

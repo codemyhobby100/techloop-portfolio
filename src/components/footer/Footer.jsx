@@ -20,7 +20,7 @@ const Footer = () => {
                 </a>
             </div>
 
-            <p className="footer__copyright text-cs">&copy; 2023 <span></span>. All Rights Reserved</p>
+            <p className="footer__copyright text-cs">&copy; 2024 <span></span>. All Rights Reserved</p>
 
             <p className="footer__copyright text-cs">Developed by <span>Techloop</span></p>
         </div>
