@@ -15,7 +15,8 @@ const Home = () => {
   return (
   <section className='home' id='home'>
     <div className="home__wrapper">
-        <div data-aos="fade-up" 
+        <div 
+            data-aos="fade-up" 
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"

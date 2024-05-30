@@ -17,7 +17,14 @@ import './services.css';
 
 const Services = () => {
   return (
-    <section className="services section" id="services">
+    <section 
+      data-aos="fade-up" 
+      // data-aos-offset="200"
+      // data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      className="services section" 
+      id="services">
         <h2 className="section__title text-cs">What We Do</h2>
         <p className="section__subtitle">
             Our <span>Services</span>

@@ -161,7 +161,7 @@ export const projects = [
     id: 3,
     img: Project5,
     category: 'Mobile App',
-    link: 'https://world-map-pro.netlify.app/',
+    link: '#',
     title: 'Wealth App',
     description:
       'Wealth App is a real estate application avaailable on Android and Ios devices where memebers can buy and sell properties.',
@@ -216,7 +216,7 @@ export const projects = [
     img: Project7,
     category: 'Web Development',
     title: 'IOG Website',
-    link: 'https://grilli-diners.netlify.app/',
+    link: 'https://internationalorthopaedicgroup.com/ ',
     description:
       'The IOG website leverages React for a dynamic user interface, while a fully functional accessibility feature and integrated CRM system demonstrate their commitment to both technical excellence and inclusivity.',
   },

@@ -26,14 +26,27 @@ const Portfolio = () => {
   }
   return (
     <section className='portfolio section' id='work'>
-      <h2 className='section__title text-cs'>Portfolio</h2>
-      <p className='section__subtitle'>
-        Our <span>Work</span>
-      </p>
+      <div 
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
+        <h2 className='section__title text-cs'>Portfolio</h2>
+        <p className='section__subtitle'>
+          Our <span>Work</span>
+        </p>
+      
 
-      <List list={navList} filterItems={filterItems} />
+        <List list={navList} filterItems={filterItems} />
+      </div>
 
-      <div className="portfolio__container container grid">
+      <div 
+      data-aos="fade-up" 
+      // data-aos-offset="200"
+      // data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      className="portfolio__container container grid">
         <AnimatePresence initial = {false}>
           <Items projectItems={projectItems}/>
         </AnimatePresence>
