@@ -1,0 +1,12 @@
+.teams{
+    background-image: var(--second-gradient);
+}
+
+.team-container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.team-member{
+    /* width: 300px; */
+}

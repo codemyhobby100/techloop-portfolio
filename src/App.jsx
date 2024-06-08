@@ -7,6 +7,7 @@ import Skills from './components/skills/Skills';
 import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
 import Testimonials from './components/testimonials/Testimonials';
+import Teams from './components/teams/Teams'
 import Pricing from './components/pricing/Pricing';
 import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
@@ -21,6 +22,7 @@ function App() {
       {/* <Skills /> */}
       <Portfolio />
       {/* <Resume /> */}
+      {/* <Teams /> */}
       <Testimonials />
       {/* <Pricing /> */}
       <Blog />
