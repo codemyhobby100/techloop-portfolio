@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import Blog1 from "../../assets/ios17.jpg";
+import Blog1 from "../../assets/logo.png";
 import Blog2 from "../../assets/ai.jpg";
 import Blog3 from "../../assets/ui-designer.jpg";
 import shapeOne from '../../assets/shape-1.png';
@@ -33,12 +33,12 @@ const Blog = () => {
                 data-aos-easing="ease-in-out"
                 className="blog__item card card-two"
             >
-                <span className="blog__date text-cs">June 22, 2023</span>
-                <h3 className="blog__title">The next-generation version of iOS, set to be released in September.</h3>
-                <p className="blog__description">iOS 17 is the newest version of iOS, the operating system that is designed to run on the iPhone. Previewed in June, iOS 17 is in beta testing and is set to see a release in September alongside new iPhones
+                <span className="blog__date text-cs">July 3rd, 2024</span>
+                <h3 className="blog__title"> Introducing Techloop, Your Premier Software Development Agency.</h3>
+                <p className="blog__description">I started as a regular freelance web developer, always on the lookout for new job opportunities. Despite my efforts with cold outreach, I found myself hitting a dead end. It wasn't until I stumbled upon Iman Ghazi's videos
                 </p>
 
-                <a href="" className="link">
+                <a href="https://www.linkedin.com/posts/techlooop_techloop-softwaredevelopment-innovation-activity-7214165887765864448-hWvZ?utm_source=share&utm_medium=member_desktop" className="link">
                     Read more
                     <FaArrowRight className='link__icon'></FaArrowRight>
                 </a>
