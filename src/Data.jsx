@@ -245,16 +245,6 @@ export const cv = [
   },
 
   {
-    id: 4,
-    title: 'Web App Development',
-    subtitle: 'AcctBazaar',
-    date: '',
-    description:
-      'Acctbazaar is a robust P2P marketplace built to facilitate secure and streamlined trading of social media accounts.  This full-stack application boasts four distinct dashboards catering to buyers, sellers, administrators, and moderators, ensuring a smooth and efficient user experience.  An integrated currency system simplifies transactions within the platform, fostering a secure and convenient environment for trading social media assets.',
-    category: 'experience',
-  },
-
-  {
     id: 5,
     title: 'Mobile App Development',
     subtitle: 'Wealth App',
