@@ -149,15 +149,6 @@ export const projects = [
       'This is a crypto currency dashboard we built using React. This uses a private API to update the crypto currencies prices and also has 3 other sub applications with the app.',
   },
   {
-    id: 2,
-    img: Project2,
-    category: 'Web Application',
-    title: 'AcctBazaar',
-    link: 'https://www.acctbazaar.com/',
-    description:
-      'Acctbazaar is a fullstack sophisticated p2p marketplace for trading all forms of social media accounts and gift cards. ',
-  },  
-  {
     id: 3,
     img: Project5,
     category: 'Mobile App',
