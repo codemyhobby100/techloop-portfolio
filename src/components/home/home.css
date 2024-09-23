@@ -44,7 +44,7 @@
 
 .home__title{
     color: #fff;
-    font-size: var(--biggest-font-size);
+    font-size: 70px;
     text-shadow: 2px 2px hsl(0, 0%, 0%), -2px 2px hsl(0, 0%, 0%), 2px -2px hsl(0, 0%, 0%), 
                  -2px -2px hsl(0, 0%, 0%), 5px 5px 0 rgb(0 0 0 / 20%);
     line-height: 1.2;

@@ -28,7 +28,7 @@ const Home = () => {
             </p>
 
             <h1 className='home__title text-cs'>
-                <span>Tech</span>loop
+                <span>Tech</span>loop Inc.
             </h1>
 
             <p className='home__job'>

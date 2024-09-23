@@ -22,7 +22,7 @@ const Footer = () => {
 
             <p className="footer__copyright text-cs">&copy; 2024 <span></span>. All Rights Reserved</p>
 
-            <p className="footer__copyright text-cs">Developed by <span>Techloop</span></p>
+            <p className="footer__copyright text-cs">Developed by <span>Techloop Inc.</span></p>
         </div>
     </footer>
   )
