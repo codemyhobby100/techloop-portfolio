@@ -17,8 +17,8 @@ import Project16 from './assets/project29.png';
 
 import Testimonial4 from './assets/testimonial4.jpg';
 import Testimonial5 from './assets/testimonial5.jpg';
-import Tamazing from './assets/tamazing.jpg';
-import Rai from './assets/rai.png';
+import Acctbazaar from './assets/testimonial-3.png';
+import Acctpanel from './assets/testimonial-2.png';
 import Amazon from './assets/amazon.jpg'
 import Forex from './assets/forex-capital.png'
 
@@ -317,19 +317,19 @@ export const cv = [
 export const testimonials = [
   {
     id: 1,
-    img: Tamazing,
-    name: 'Tamazing Events',
-    author: 'Event Decor Company',
+    img: Acctbazaar,
+    name: 'Acctbazaar',
+    author: 'Digital Marketplace',
     description:
-      'I was amazed by the exceptional design you crafted for our company. Since we engaged your services to develop our website, we have witnessed a significant influx of customers, leading to remarkable growth for our company. We extend our heartfelt gratitude.',
+      `Techloop Incorp Ltd. built a fantastic P2P marketplace for Acctbazaar, complete with an integrated chat system. Their work exceeded our expectations and has significantly contributed to our growth. We couldn't be happier with the service and results.`,
   },
   {
     id: 2,
-    img: Rai,
-    name: 'RAI HR CONSULTING',
-    author: 'HR Consulting Company',
+    img: Acctpanel,
+    name: 'Acctpanel',
+    author: 'SMMA',
     description:
-      'Upon receiving a recommendation from a friend, I decided to give Techloop a try. To my astonishment, they exceeded my expectations by constructing a visually stunning and captivating website. I am thoroughly impressed and would highly recommend their services to others.',
+      `Techloop Incorp Ltd. exceeded our expectations with the development of Acctbazaar. The platform’s functionality, especially the integrated chat system, has been crucial to our growth. Their service was exceptional, and we're thrilled with the results.`,
   },
   {
     id: 3,
