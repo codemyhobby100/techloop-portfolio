@@ -1,17 +1,20 @@
 // import Project1 from './assets/project1.jpeg';
 import Project2 from './assets/acct.png';
-import Project3 from './assets/project20.png';
+import Project3 from './assets/project23.png';
 import Project5 from './assets/app.png';
 import Project6 from './assets/project18.jpg';
 import Project7 from './assets/iog.png';
 import Project8 from './assets/project22.png';
 // import Project9 from './assets/project9.png';
 // import Project10 from './assets/project10.png';
-import Project11 from './assets/project17.png';
-import Project12 from './assets/project12.png';
-import Project13 from './assets/project13.png'
+import Project11 from './assets/project28.png';
+import Project12 from './assets/project25.png';
+import Project13 from './assets/project13.png';
+import Project14 from './assets/project14.png';
+import Project15 from './assets/project27.png';
+import Project16 from './assets/project29.png';
 
-;
+
 import Testimonial4 from './assets/testimonial4.jpg';
 import Testimonial5 from './assets/testimonial5.jpg';
 import Tamazing from './assets/tamazing.jpg';
@@ -141,42 +144,60 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    img: Project12,
+    img: Project2,
     category: 'Web Application',
-    title: 'Crypto Dashboard',
-    link: '#',
+    title: 'Acctbazaar',
+    link: 'https://www.acctbazaar.com/',
     description:
-      'This is a crypto currency dashboard we built using React. This uses a private API to update the crypto currencies prices and also has 3 other sub applications with the app.',
+      'A peer-to-peer marketplace for buying and selling social media accounts. It connects users with authentic accounts across various categories and includes an integrated chat for seamless communication between buyers and sellers.',
+  },
+  {
+    id: 2,
+    img: Project5,
+    category: 'Mobile App',
+    link: 'https://play.google.com/store/apps/details?id=com.app.wealth',
+    title: 'Wealth App',
+    description:
+      'A comprehensive real estate mobile application with integrated AI support and a fully functional in-app chat system. Available on both the Play Store and App Store, Wealth helps users manage real estate investments efficiently and make informed decisions.',
   },
   {
     id: 3,
-    img: Project5,
-    category: 'Mobile App',
-    link: '#',
-    title: 'Wealth App',
+    img: Project12,
+    category: 'Web Application',
+    link: 'https://acctpanel.com/',
+    title: 'Acctpanel',
     description:
-      'Wealth App is a real estate application avaailable on Android and Ios devices where memebers can buy and sell properties.',
+      'An AI-powered platform where users can boost their social media presence by purchasing engagements such as likes, comments, views, and streaming services. The AI automates the delivery of these services for fast and efficient results.',
   },
   {
-    id: 4,
+    id: 5,
+    img: Project15,
+    category: 'Web Design',
+    title: 'Clean My Space',
+    link: 'https://www.cleanmyspace.ng/',
+    description:
+      'We built and optimized the website for Clean My Space Ltd., helping it become the top-ranked cleaning service in Abuja through effective SEO strategies.',
+  }, 
+  {
+    id: 5,
     img: Project13,
-    category: 'Web Development',
+    category: 'Web Design',
     title: 'Amazon Unite',
     link: 'https://amazonuniteinternational.org/',
     description:
       'Amazon Unite International is an international NGO aimed at helping women, youths, and children. ',
   },  
   {
-    id: 5,
+    id: 6,
     img: Project11,
-    category: 'Web Development',
-    title: 'Quiz Master',
-    link: 'https://quiz-mastery.netlify.app/',
+    category: 'Web Design',
+    title: 'Garnicopies',
+    link: 'https://www.garnicopies.co/',
     description:
-      'Quiz master is an interesting quiz app that allows students practice different courses in preparation for tests or examinations.',
+      'We developed a website for Garnicopies, a copyright company, featuring a sophisticated design to reflect their professional services and modern approach.',
   },
   {
-    id: 6,
+    id: 7,
     img: Project6,
     category: 'UI/UX',
     title: 'Travel Guide',
@@ -185,16 +206,16 @@ export const projects = [
       'This captivating travel app design, crafted with Figma, exemplifies our ability to design intuitive user journeys.  Figmas collaborative features ensured seamless client integration, resulting in a visually-appealing and user-friendly travel companion.',
   },
   {
-    id: 7,
+    id: 8,
     img: Project3,
     category: 'Web Application',
-    title: 'FOREX Prop Firm',
-    link: 'https://forex-project.netlify.app/',
+    title: 'HR Management System',
+    link: 'https://github.com/codemyhobby100',
     description:
-      'This is a forex prop firm web application built using React js and some APIS.',
+      'We developed a sophisticated HR management system with advanced functionalities, including employee management and single-user sign-in authentication, providing seamless and efficient organizational management.',
   },
   {
-    id: 8,
+    id: 9,
     img: Project8,
     category: 'Web Design',
     title: 'Creators Ideology',
@@ -203,13 +224,31 @@ export const projects = [
       'Creators ideology is a social media marketing agency that provides services for both creators and brands.',
   },
   {
-    id: 9,
+    id: 10,
     img: Project7,
     category: 'Web Development',
     title: 'IOG Website',
     link: 'https://internationalorthopaedicgroup.com/ ',
     description:
       'The IOG website leverages React for a dynamic user interface, while a fully functional accessibility feature and integrated CRM system demonstrate their commitment to both technical excellence and inclusivity.',
+  },
+  {
+    id: 11,
+    img: Project14,
+    category: 'Web Development',
+    title: 'Bool',
+    link: 'https://github.com/codemyhobby100',
+    description:
+      'We developed an e-commerce web application for Bool, a platform that connects users with shipping companies, streamlining the process of linking customers with logistics providers for efficient shipping services.',
+  },
+  {
+    id: 12,
+    img: Project16,
+    category: 'Web Design',
+    title: 'Wax&Co. Clinc',
+    link: 'https://waxandcoclinic.com/ ',
+    description:
+      'We built a website for Wax and Co Clinic, showcasing their expertise in electrolysis, massages, arthritis management, and waxing. The site highlights their skilled professionals and commitment to providing personalized, top-notch services.',
   },
 ];
 

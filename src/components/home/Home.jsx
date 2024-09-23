@@ -66,7 +66,7 @@ const Home = () => {
             </div>
 
             <p className='home__text'>
-                At Techloop, we're passionate about transforming innovative concepts into powerful 
+                At Techloop Inc., we're passionate about transforming innovative concepts into powerful 
                 software solutions that deliver real-world impact.  Our team of skilled software 
                 developers specializes in crafting user-centric mobile apps, web applications, and 
                 enterprise software solutions for startups, medium-sized businesses, and large-scale 
