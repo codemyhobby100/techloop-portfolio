@@ -151,15 +151,15 @@ export const projects = [
     description:
       'A peer-to-peer marketplace for buying and selling social media accounts. It connects users with authentic accounts across various categories and includes an integrated chat for seamless communication between buyers and sellers.',
   },
-  {
-    id: 2,
-    img: Project5,
-    category: 'Mobile App',
-    link: 'https://play.google.com/store/apps/details?id=com.app.wealth',
-    title: 'Wealth App',
-    description:
-      'A comprehensive real estate mobile application with integrated AI support and a fully functional in-app chat system. Available on both the Play Store and App Store, Wealth helps users manage real estate investments efficiently and make informed decisions.',
-  },
+  // {
+  //   id: 2,
+  //   img: Project5,
+  //   category: 'Mobile App',
+  //   link: 'https://play.google.com/store/apps/details?id=com.app.wealth',
+  //   title: 'Wealth App',
+  //   description:
+  //     'A comprehensive real estate mobile application with integrated AI support and a fully functional in-app chat system. Available on both the Play Store and App Store, Wealth helps users manage real estate investments efficiently and make informed decisions.',
+  // },
   {
     id: 3,
     img: Project12,
